@@ -14,4 +14,16 @@ body {
     width: 200px;
     border-radius: 60px;
     background: radial-gradient(circle at 30% 107%, #FDF497 0%, #FDF497 5%, #FD5949 45%, #D6249F 60%, #285AEB 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square {
+    width: 140px;
+    height: 140px;
+    background-color: transparent;
+    border: 12px solid #fff;
+    border-radius: 45px;
+    position: relative;
 }
