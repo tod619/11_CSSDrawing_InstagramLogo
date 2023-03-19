@@ -26,4 +26,25 @@ body {
     border: 12px solid #fff;
     border-radius: 45px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-big {
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 12px solid #fff;
+}
+
+.circle-small {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 15px;
 }
